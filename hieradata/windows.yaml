@@ -1,0 +1,5 @@
+---
+
+#windows settings only 
+user: windowsUser
+file_path: 'c:\motd.txt'
