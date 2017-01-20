@@ -26,7 +26,9 @@ if $facts['os']['family']=='RedHat'
 	$result2 = range(6,10).each |$num| 
 	{
   	$filename = "/tmp/test${num}.txt"
-  	file{$filename: ensure => present
+  	file{$filename: 
+	ensure => present,
+	content => "this is the ${num}file.",
 	}
 }
 
