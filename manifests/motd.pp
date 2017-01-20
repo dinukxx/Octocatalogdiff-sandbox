@@ -17,7 +17,7 @@ else
 	
 	file{$configurationPath:
 	ensure=>file,
-	content => " valid information : ${currentUser} and path is set to : ${configurationPath}  ",
+	content => " information : ${currentUser} and path is set to : ${configurationPath}  ",
 	}
 }
 
